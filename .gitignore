@@ -5,6 +5,9 @@
 .env.test.local
 .env.production.local
 
+!correct_output.json
+!output.json
+
 # Google Cloud service account keys
 *.json
 service-account-*.json
