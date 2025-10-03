@@ -5,10 +5,9 @@
 .env.test.local
 .env.production.local
 
-!terran_sched_expected.json
-
 # Google Cloud service account keys
 *.json
+!terran_sched_expected.json
 service-account-*.json
 google-credentials.json
 
