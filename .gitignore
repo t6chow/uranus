@@ -5,8 +5,7 @@
 .env.test.local
 .env.production.local
 
-!correct_output.json
-!output.json
+!terran_sched_expected.json
 
 # Google Cloud service account keys
 *.json
