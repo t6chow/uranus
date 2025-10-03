@@ -1,0 +1,18 @@
+# OCR Scripts Dependencies
+# For script_a_tesseract_ocr.py (Local OCR)
+pytesseract
+pillow
+opencv-python
+numpy
+
+# For script_b_vision_ocr.py (Google Cloud Vision API)
+google-cloud-vision
+python-dotenv
+requests
+
+# For parse_schedule.py (Schedule parser)
+pydantic
+openai
+python-dotenv
+
+# Note: pillow and numpy are shared between multiple scripts
